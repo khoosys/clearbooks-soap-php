@@ -1,23 +1,22 @@
 {
-  "name": "clearbooks/clearbooks-soap-php",
-  "description": "The PHP SDK for the Clear Books SOAP API",
-  "keywords": ["Clear Books", "Accounting", "Invoices"],
-
-  "license": "MIT",
-
-  "authors": [
-    {
-      "name": "Clear Books plc",
-      "email": "help@clearbooks.co.uk",
-      "homepage": "https://www.clearbooks.co.uk/"
-    }
-  ],
-
-  "autoload": {
-    "classmap": [ "src/" ]
-  },
-
-  "require": {
-    "ext-soap": "*"
-  }
+    "name": "khoosys/clearbooks-soap-php",
+    "description": "PHP client library for Clearbooks SOAP API, namespaced for PSR-4",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khoo Systems Limited",
+            "email": "support@khoosys.net"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clearbooks\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
