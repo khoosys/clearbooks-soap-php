@@ -82,7 +82,7 @@ use Clearbooks\Soap\Theme;
  * @method int createBankAccount(\Clearbooks\Soap\BankAccount $bankAccount)
  * @method \Clearbooks\Soap\PaymentMethod[] listPaymentMethods()
  */
-class Clearbooks_Soap extends \SoapClient
+class ClearbooksSoap extends \SoapClient
 {
 protected static $classMap = [
         'AccountCode' => 'Clearbooks\Soap\AccountCode',
