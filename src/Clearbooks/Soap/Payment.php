@@ -12,7 +12,7 @@ class Payment
     /** @var string */
     public $description;
 
-    /** @var \Clearbooks_Soap_1_0_PaymentInvoice[] */
+    /** @var \Clearbooks\Soap\PaymentInvoice[] */
     public $invoices = array();
 
     /** @var string */

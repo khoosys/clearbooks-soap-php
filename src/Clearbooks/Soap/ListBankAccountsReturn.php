@@ -9,7 +9,7 @@ namespace Clearbooks\Soap;
  */
 class ListBankAccountsReturn
 {
-    /** @var \Clearbooks_Soap_1_0_BankAccountListItem[] */
+    /** @var \Clearbooks\Soap\BankAccountListItem[] */
     public $bankAccounts = array();
 
     /** @var float */
