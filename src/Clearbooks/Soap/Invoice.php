@@ -9,7 +9,7 @@ namespace Clearbooks\Soap;
  */
 class Invoice
 {
-    /** @var \Clearbooks_Soap_1_0_Item[] */
+    /** @var \Clearbooks\Soap\Item[] */
     public $items = array();
 
     /** @var string */
