@@ -9,7 +9,7 @@ namespace Clearbooks\Soap;
  */
 class ListThemesReturn
 {
-    /** @var \Clearbooks_Soap_1_0_Theme[] */
+    /** @var \Clearbooks\Soap\Theme[] */
     public $themes = array();
 }
 //EOF ListThemesReturn.php

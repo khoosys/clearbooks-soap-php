@@ -10,19 +10,19 @@ namespace Clearbooks\Soap;
 class Entity
 {
     /**
-     * @var \Clearbooks_Soap_1_0_EntityExtra
+     * @var \Clearbooks\Soap\EntityExtra
      * @optional
      */
     public $supplier = null;
 
     /**
-     * @var \Clearbooks_Soap_1_0_EntityExtra
+     * @var \Clearbooks\Soap\EntityExtra
      * @optional
      */
     public $customer = null;
 
     /**
-     * @var \Clearbooks_Soap_1_0_BankAccount
+     * @var \Clearbooks\Soap\BankAccount
      * @optional
      */
     public $bankAccount = null;

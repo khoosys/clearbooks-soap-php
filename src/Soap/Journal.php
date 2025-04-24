@@ -9,7 +9,7 @@ namespace Clearbooks\Soap;
  */
 class Journal
 {
-    /** @var \Clearbooks_Soap_1_0_JournalLedgerItem[] */
+    /** @var \Clearbooks\Soap\JournalLedgerItem[] */
     public $ledger = array();
 
     /** @var string */

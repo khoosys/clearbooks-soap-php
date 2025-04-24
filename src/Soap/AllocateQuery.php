@@ -9,7 +9,7 @@ namespace Clearbooks\Soap;
  */
 class AllocateQuery
 {
-    /** @var \Clearbooks_Soap_1_0_PaymentInvoice[] */
+    /** @var \Clearbooks\Soap\PaymentInvoice[] */
     public $invoices = array();
 
     /** @var string */
